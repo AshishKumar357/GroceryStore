@@ -1,4 +1,4 @@
-package com.project.grocerystore;
+package com.project.groceryStore;
 
 import android.content.Intent;
 import android.os.Bundle;

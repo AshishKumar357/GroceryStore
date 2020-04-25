@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollViewAccount"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBut"
+    android:padding="16dp"
+    tools:context=".AccountActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/myProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorButton"
+                android:drawableStart="@drawable/account_profile_icon"
+                android:drawableLeft="@drawable/account_profile_icon"
+                android:drawableEnd="@drawable/account_arrow_icon"
+                android:drawableRight="@drawable/account_arrow_icon"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:gravity="center|start"
+                android:padding="10dp"
+                android:text=" My Profile"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/myApplication"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorButton"
+                android:drawableStart="@drawable/account_application_icon"
+                android:drawableLeft="@drawable/account_application_icon"
+                android:drawableEnd="@drawable/account_arrow_icon"
+                android:drawableRight="@drawable/account_arrow_icon"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:gravity="center|start"
+                android:padding="10dp"
+                android:text=" My Applications"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/wallet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorButton"
+                android:drawableStart="@drawable/account_wallet_icon"
+                android:drawableLeft="@drawable/account_wallet_icon"
+                android:drawableEnd="@drawable/account_arrow_icon"
+                android:drawableRight="@drawable/account_arrow_icon"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:gravity="center|start"
+                android:padding="10dp"
+                android:text="@string/wallet"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/offer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorButton"
+                android:drawableStart="@drawable/account_offer_icon"
+                android:drawableLeft="@drawable/account_offer_icon"
+                android:drawableEnd="@drawable/account_arrow_icon"
+                android:drawableRight="@drawable/account_arrow_icon"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:gravity="center|start"
+                android:padding="10dp"
+                android:text="@string/offer_account"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout1"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/gift"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorButton"
+                android:drawableStart="@drawable/account_gift_icon"
+                android:drawableLeft="@drawable/account_gift_icon"
+                android:drawableEnd="@drawable/account_arrow_icon"
+                android:drawableRight="@drawable/account_arrow_icon"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:gravity="center|start"
+                android:padding="10dp"
+                android:text="@string/invite_and_get_gifts"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+
+
+            <Button
+                android:id="@+id/follow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorButton"
+                android:drawableStart="@drawable/account_follow_icon"
+                android:drawableLeft="@drawable/account_follow_icon"
+                android:drawableEnd="@drawable/account_arrow_icon"
+                android:drawableRight="@drawable/account_arrow_icon"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:gravity="center|start"
+                android:padding="10dp"
+                android:text="@string/follow_us"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/rateUs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorButton"
+                android:drawableStart="@drawable/account_rateus_icon"
+                android:drawableLeft="@drawable/account_rateus_icon"
+                android:drawableEnd="@drawable/account_arrow_icon"
+                android:drawableRight="@drawable/account_arrow_icon"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:gravity="center|start"
+                android:padding="10dp"
+                android:text="  Rate us on Play Store"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/help"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorButton"
+                android:drawableStart="@drawable/account_help_icon"
+                android:drawableLeft="@drawable/account_help_icon"
+                android:drawableEnd="@drawable/account_arrow_icon"
+                android:drawableRight="@drawable/account_arrow_icon"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:gravity="center|start"
+                android:padding="10dp"
+                android:text="@string/help"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout2"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorBut"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/service"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBut"
+                android:drawableStart="@drawable/account_contact_icon"
+                android:drawableLeft="@drawable/account_contact_icon"
+                android:drawableEnd="@drawable/account_arrow_icon"
+                android:drawableRight="@drawable/account_arrow_icon"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:gravity="center|start"
+                android:padding="10dp"
+                android:text="@string/customer_service"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+
+
+            <Button
+                android:id="@+id/about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBut"
+                android:drawableStart="@drawable/account"
+                android:drawableLeft="@drawable/account"
+                android:drawableEnd="@drawable/account_arrow_icon"
+                android:drawableRight="@drawable/account_arrow_icon"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:gravity="center|start"
+                android:padding="10dp"
+                android:text="@string/about_us"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/reportproblem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBut"
+                android:drawableStart="@drawable/ic_feedback_black_24dp"
+                android:drawableLeft="@drawable/settings"
+                android:drawableEnd="@drawable/account_arrow_icon"
+                android:drawableRight="@drawable/account_arrow_icon"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:gravity="center|start"
+                android:padding="10dp"
+                android:text="  Report a problem"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/settings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBut"
+                android:drawableStart="@drawable/settings"
+                android:drawableLeft="@drawable/settings"
+                android:drawableEnd="@drawable/account_arrow_icon"
+                android:drawableRight="@drawable/account_arrow_icon"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:gravity="center|start"
+                android:padding="10dp"
+                android:text="@string/settings"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

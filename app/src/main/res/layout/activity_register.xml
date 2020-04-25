@@ -7,42 +7,30 @@
     android:background="@drawable/download"
     tools:context=".RegisterActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="347dp"
-        android:layout_height="193dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.488"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.06999999"
-        app:srcCompat="@drawable/go_loans_logo"
-        android:contentDescription="@string/goloans_logo_image" />
 
-    <EditText
-        android:id="@+id/inp_name"
-        android:layout_width="0dp"
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="8dp"
-        android:ems="10"
-        android:gravity="center"
-        android:hint="@string/enter_full_name"
-        android:inputType="textPersonName"
-        android:textSize="18sp"
+        android:background="@drawable/rounded_border"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:text="@string/register"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/inp_pwd"
+        tools:ignore="UnusedAttribute" />
 
     <EditText
         android:id="@+id/inp_email"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:ems="10"
         android:gravity="center"
@@ -57,6 +45,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:gravity="center"
         android:hint="@string/enter_phone_number"
@@ -69,8 +58,8 @@
         android:id="@+id/inp_pwd"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:ems="10"
         android:gravity="center"
@@ -80,18 +69,22 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/inp_phno" />
 
-    <Button
-        android:id="@+id/register_btn"
+    <EditText
+        android:id="@+id/inp_name"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="24dp"
-        android:background="@android:color/background_light"
-        android:text="@string/register"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/enter_full_name"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inp_pwd" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/registed_txt"

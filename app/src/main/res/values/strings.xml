@@ -1,3 +1,63 @@
 <resources>
     <string name="app_name">GroceryStore</string>
+
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="register">Register</string>
+    <string name="already_registered_login_instead">Already Registered?? Login Instead</string>
+    <string name="goloans_logo_image">GoLoans Logo image</string>
+    <string name="not_registered_register_instead">Not Registered?? Register Instead</string>
+    <string name="login">Login</string>
+    <string name="welcome_to_the_dashboard">Welcome to the DashBoard</string>
+    <string name="profile">Profile</string>
+    <string name="enter_your_monthaly_salary">Enter your Monthaly Salary</string>
+    <string name="submit">Submit</string>
+    <string name="amount_of_loan">Amount Of Loan</string>
+    <string name="expected_interest_12_18_year">Expected interest 12&#8211;18(%/year)</string>
+    <string name="share_my_file_to_lenders">Share my File and Contact Information with the Lenders</string>
+    <string name="share_my_file_to_applicants">Share my File and Contact Information with the Loan Applicants</string>
+    <string name="i_agree_to_receive">I AGREE TO RECEIVE PROMOTIONAL MAILS FROM GO LOANS</string>
+    <string name="enter_date_of_birth_dd_mm_yyyy">Enter Date of Birth(DD/MM/YYYY)</string>
+    <string name="enter_last_name">Enter Last Name*</string>
+    <string name="enter_first_name">Enter First Name *</string>
+    <string name="eligibility_check">ELIGIBILITY CHECK</string>
+    <string name="complete_the_details_below_to_check_your_loan_eligibility_go_loans_will_provide_you_with_a_loan_offer_in_just_5_mins_we_specialize_in_bad_credit_loans_loan_for_self_employed_and_businessman">Complete the Details below to check your Loan Eligibility. Go Loans will provide you with a Loan Offer in just 5 Mins. We specialize in Bad Credit Loans, Loan for Self Employed and Businessman.</string>
+    <string name="loan_application_rejected">Is your loan application getting rejected by Banks and NBFC\'s ?</string>
+    <string name="complete_your_loan_application_with_us_we_will_forward_your_application_to_all_our_registered_lender_so_that_they_can_approve_your_loan_appliaction_online">Complete Your Loan Application with us. We will forward your application to all our registered Lender so that they can Approve your Loan Appliaction online</string>
+    <string name="apply_loan_with_us">APPLY LOAN WITH US</string>
+
+    <string name="lend_money">Lend Money</string>
+    <string name="apply_for_a_loan">Apply For a loan</string>
+    <string name="enter_full_address">Enter Full Address</string>
+    <string name="proceed">Proceed</string>
+    <string name="enter_pincode">Enter Pincode</string>
+    <string name="enter_aadhar_card_number">Enter Aadhar Card Number</string>
+    <string name="enter_pan_number">Enter PAN number</string>
+    <string name="lend_money_interface">Become a lender and earn huge profits</string>
+    <string name="your_name">Your name</string>
+    <string name="your_profile">Your Profile</string>
+    <string name="your_phone_number">Your Phone Number</string>
+    <string name="your_email">Your email</string>
+    <string name="logout">Logout</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="total_money_you_can_loan">Total Money You can Loan</string>
+    <string name="expected_rate_of_interest_1_27_per_year">Expected Rate of Interest(1&#8211;27 % per year)</string>
+    <string name="lender_registration_form_part_3_3">Lender Registration Form (part 3/3)</string>
+    <string name="clear">clear</string>
+    <string name="lender_registration_form_part_2_3">Lender Registration Form ( part 2/3)</string>
+    <string name="homebtn">HomeBtn</string>
+
+
+    <string name="wallet">\tMy Wallet</string>
+    <string name="invite_and_get_gifts">\tInvite and Get Gifts</string>
+    <string name="settings">\tSettings</string>
+    <string name="about_us">\tAbout Us</string>
+    <string name="follow_us">\tFollow Us</string>
+    <string name="customer_service">\tCustomer Service</string>
+    <string name="offer_account">\tMy Offers</string>
+    <string name="help">\tHelp</string>
+
+
 </resources>
